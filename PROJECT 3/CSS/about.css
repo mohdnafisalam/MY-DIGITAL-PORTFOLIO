@@ -1,0 +1,307 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f2eb;
+  color: #2d3828;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #2e4a2e;
+  color: #f0ede3;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px 30px 48px;
+  text-align: center;
+}
+
+#my-name {
+  color: #e8f5e8;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #b2d4b2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.university {
+  color: #8ab88a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* NAV */
+nav {
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #d4edd4;
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  padding: 13px 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #4d7a4d;
+  color: #ffffff;
+}
+
+nav a.active {
+  background-color: #2e4a2e;
+  color: #e8f5e8;
+}
+
+/* MAIN */
+main {
+  background-color: #f5f2eb;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* SECTIONS */
+section {
+  background-color: #fafaf4;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px;
+  border-bottom: 1px solid #d8ceb8;
+}
+
+#education {
+  background-color: #fafaf4;
+}
+
+#interests {
+  background-color: #fafaf4;
+}
+
+#languages {
+  background-color: #fafaf4;
+}
+
+/* HEADINGS */
+h2 {
+  color: #2e4a2e;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 26px;
+  margin-bottom: 22px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b8cca8;
+}
+
+h3 {
+  color: #3a5f3a;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+/* PARAGRAPHS & LINKS*/
+p {
+  color: #3a3a2e;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+a {
+  color: #3a6b3a;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e3d1e;
+}
+
+/* OBJECTIVe */
+.objective-text {
+  background-color: #e4edd8;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 18px 24px;
+  border-left: 4px solid #5a8a5a;
+  line-height: 1.85;
+  margin-top: 6px;
+}
+
+/* EDUCATION BLOCKS */
+.edu-block {
+  background-color: #fafaf4;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  border: 1px solid #c8d8b8;
+  border-left: 5px solid #3a5f3a;
+}
+
+.edu-header {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.edu-year {
+  color: #6a8a6a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-color: #ddeedd;
+  padding: 3px 10px;
+  margin-left: 10px;
+}
+
+.edu-institute {
+  color: #4a6b4a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+
+.edu-details {
+  color: #3a3a2e;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.edu-details li {
+  color: #3a3a2e;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  margin-bottom: 4px;
+  line-height: 1.6;
+}
+
+/* INTERESTS LIST */
+.interest-list {
+  background-color: #fafaf4;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.interest-list li {
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #c8d8b8;
+}
+
+/* LANGUAGES LIST */
+.lang-list {
+  background-color: #f4f4f4;
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.lang-list li {
+  color: #2d3828;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #c8d8b8;
+}
+
+.lang-name {
+  color: #2e4a2e;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+.lang-level {
+  color: #6a8a6a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  background-color: #c8dcc8;
+  padding: 2px 10px;
+  margin-left: 14px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1a321a;
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  padding: 28px 48px;
+  text-align: center;
+}
+
+footer p {
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-bottom: 7px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.footer-name {
+  color: #d8eed8;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.footer-links {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.footer-copy {
+  color: #628a62;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}

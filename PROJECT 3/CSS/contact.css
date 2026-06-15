@@ -1,0 +1,308 @@
+/* ================================================
+   contact.css  —  Contact Page
+   Palette: warm rose-cream + forest green + ivory
+   ================================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f3f0;
+  color: #2e2c28;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/*   HEADER   */
+header {
+  background-color: #2e4a2e;
+  color: #f0ede3;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px 30px 48px;
+  text-align: center;
+}
+
+#my-name {
+  color: #e8f5e8;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #b2d4b2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.university {
+  color: #8ab88a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/*   NAV   */
+nav {
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #d4edd4;
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  padding: 13px 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #4d7a4d;
+  color: #ffffff;
+}
+
+nav a.active {
+  background-color: #2e4a2e;
+  color: #e8f5e8;
+}
+
+/*   MAIN   */
+main {
+  background-color: #f5f3f0;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+/*   SECTIONS   */
+section {
+  background-color: #f4f4f4;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px;
+  border-bottom: 1px solid #d8d0c0;
+}
+
+#contact-info {
+  background-color: #f4f4f4;
+}
+
+#contact-form {
+  background-color: #f4f4f4;
+}
+
+/*   HEADINGS   */
+h2 {
+  color: #2e4a2e;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 26px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b4c8a0;
+}
+
+p {
+  color: #3a3830;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+a {
+  color: #3a6b3a;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e3d1e;
+}
+
+/*   CONTACT INFO LIST   */
+.info-list {
+  background-color: #f4f4f4;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  background-color: #fafaf5;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #c8c0a8;
+  border-left: 5px solid #3a5f3a;
+}
+
+.info-label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  padding: 3px 12px;
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.info-value {
+  color: #3a3830;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  margin-left: 16px;
+}
+
+.info-value a {
+  color: #3a6b3a;
+  font-family: Georgia, serif;
+  font-size: 15px;
+}
+
+.info-value a:hover {
+  color: #1e3d1e;
+}
+
+/*   FORM   */
+form {
+  background-color: #f5f3f0;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  max-width: 580px;
+  margin-top: 10px;
+}
+
+label {
+  color: #2e4a2e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #ffffff;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #b0a898;
+}
+
+input:focus {
+  background-color: #f0f5ec;
+  color: #1a2e1a;
+}
+
+textarea {
+  background-color: #ffffff;
+  color: #2e2c28;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #b0a898;
+}
+
+textarea:focus {
+  background-color: #f0f5ec;
+  color: #1a2e1a;
+}
+
+button {
+  background-color: #2e4a2e;
+  color: #f0ede3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  padding: 13px 34px;
+  border: none;
+  margin-top: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+
+.btn-reset {
+  background-color: #a0a890;
+  color: #2e2c28;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+
+.req {
+  color: #8a3a3a;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+/*   FOOTER   */
+footer {
+  background-color: #1a321a;
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  padding: 28px 48px;
+  text-align: center;
+}
+
+footer p {
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-bottom: 7px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.footer-name {
+  color: #d8eed8;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.footer-links {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.footer-copy {
+  color: #628a62;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}

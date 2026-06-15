@@ -1,0 +1,237 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  background-color: #f4f5ee;
+  color: #2d3b2d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #263f26;
+  color: #f0ede3;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px 30px 48px;
+  text-align: center;
+}
+
+#my-name {
+  color: #e8f5e8;
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #b2d4b2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.university {
+  color: #8ab88a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* NAV */
+nav {
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #d4edd4;
+  background-color: #3a5f3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  padding: 13px 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #4d7a4d;
+  color: #ffffff;
+}
+
+nav a.active {
+  background-color: #263f26;
+  color: #e8f5e8;
+}
+
+/* MAIN */
+main {
+  background-color: #fafaf4;
+  color: #2d3b2d;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* SECTIONS */
+section {
+  background-color: #fafaf4;
+  color: #2d3b2d;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 44px 48px;
+  border-bottom: 1px solid #d0ddd0;
+}
+
+#highlights {
+  background-color: #fafaf4;
+}
+
+#objective {
+  background-color: #fafaf4;
+}
+
+/* HEADINGS */
+h2 {
+  color: #263f26;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 26px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b2d4b2;
+}
+
+h3 {
+  color: #3a5f3a;
+  font-family: "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS & LINKS */
+p {
+  color: #38453a;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+a {
+  color: #3a6b3a;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e3d1e;
+}
+
+/* CARDS */
+.card-row {
+  display: table;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #2d3b2d;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  display: table-cell;
+  width: 25%;
+  padding: 22px 20px;
+  border: 1px solid #c8dcc8;
+  vertical-align: top;
+  text-align: center;
+}
+
+
+
+.card p {
+  font-size: 14px;
+  color: #4a5e4a;
+  margin-bottom: 14px;
+}
+
+.card a {
+  color: #3a6b3a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #1e3d1e;
+}
+
+/* OBJECTIVE */
+.objective-text {
+  background-color: #e8f0e8;
+  color: #2d3b2d;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  padding: 20px 24px;
+  border-left: 4px solid #3a5f3a;
+  line-height: 1.85;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1a321a;
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  padding: 28px 48px;
+  text-align: center;
+}
+
+footer p {
+  color: #c4e4c4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-bottom: 7px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.footer-name {
+  color: #d8eed8;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.footer-links {
+  color: #9ecf9e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.footer-copy {
+  color: #628a62;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
