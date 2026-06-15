@@ -150,8 +150,7 @@ p {
 .skill-label {
   color: #2e4a2e;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 13px;
-  background-color: #c8e0c0;
+  font-size: 14px;
   padding: 4px 12px;
   display: inline-block;
   width: 200px;
@@ -193,7 +192,7 @@ th {
 }
 
 td {
-  background-color: #fafaf4;
+  background-color: #f4f4f4;
   color: #2a3828;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
