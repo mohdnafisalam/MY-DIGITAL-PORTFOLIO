@@ -144,6 +144,9 @@ a:hover {
   display: table;
   width: 100%;
   border-spacing: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -151,12 +154,12 @@ a:hover {
   color: #2d3b2d;
   font-family: Georgia, serif;
   font-size: 15px;
-  display: table-cell;
-  width: 25%;
+  width: 24%;
   padding: 22px 20px;
   border: 1px solid #c8dcc8;
   vertical-align: top;
   text-align: center;
+  border-radius: 20px;
 }
 
 
